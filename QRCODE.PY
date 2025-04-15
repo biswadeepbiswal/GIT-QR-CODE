@@ -1,7 +1,7 @@
 import qrcode
 import qrcode.image.pil
 import qrcode.constants
-from PIL import Image  # Corrected import
+from PIL import Image  
 
 qr = qrcode.QRCode(version=1,
                    error_correction=qrcode.constants.ERROR_CORRECT_H,
